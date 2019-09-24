@@ -1,0 +1,3 @@
+exports = module.exports = require("../../../node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.id, "/* pages/editor/editor.wxss */\n.btn::after{\n  border:none;\n}\n.btn{\n  position: fixed;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  z-index: 10;\n  border-radius: 0;\n  height: 88rpx;\n  line-height: 88rpx;\n}\n.form_box{\n  margin-bottom: 150rpx;\n}\n.h_80{\n  height: 80rpx;\n  line-height: 80rpx;\n}\n.h_300{\n  height: 300rpx;\n}\n.key{\n  width: 140rpx;\n}\n/* textarea,input{\n  border: 1rpx solid #ccc;\n} */", ""]);

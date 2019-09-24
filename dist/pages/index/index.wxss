@@ -1,0 +1,3 @@
+exports = module.exports = require("../../../node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.id, "/* pages/index/index.wxss */\n.header{\n  width: 120rpx;\n  height: 120rpx;\n  border-radius: 50%;\n}\n.item_img{\n  display: block;\n  padding:5rpx;\n  box-sizing: border-box;\n  height: 240rpx;\n}\n.item_imgone{\n  width: 100%;\n}", ""]);

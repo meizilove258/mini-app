@@ -1,0 +1,35 @@
+<!--pages/editor/editor.wxml-->
+<view class='form_box'>
+  <form>
+    <view class="p_lr_30 p_tb_20 font_24 color_9">原文</view>
+    <view class='bg_f p_30'>
+      <view class="row flex mb_20">
+        <view class="key font_28 color_3 h_80">标题</view>
+        <input type='text' class="value flex_1 font_28 color_3 h_80"></input>
+      </view>
+      <view class="row flex mb_20">
+        <view class="key font_28 color_3 h_80">文本</view>
+        <textarea class='value flex_1 font_28 color_3 h_300'></textarea>
+      </view>
+      <view class="row flex mb_20">
+        <view class="key font_28 color_3 h_80">添加图片</view>
+        <view class="value flex_1 h_80">+</view>
+      </view>
+    </view>
+    <view class="p_lr_30 p_tb_20 font_24 color_9">后文</view>
+    <view class='bg_f p_30'>
+      <view class="row flex mb_20">
+        <view class="key font_28 color_3 h_80">标题</view>
+        <input type='text' class="value flex_1 font_28 color_3 h_80"></input>
+      </view>
+      <view class="row flex mb_20">
+        <view class="key font_28 color_3 h_80">文本</view>
+        <textarea class='value flex_1 font_28 color_3 h_300'></textarea>
+      </view>
+      <view class="row flex mb_20">
+        <view class="key font_28 color_3 h_80">添加图片</view>
+        <view class="value flex_1 h_80">+</view>
+      </view>
+    </view>
+  </form>
+</view>

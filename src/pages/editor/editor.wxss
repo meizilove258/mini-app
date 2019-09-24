@@ -1,0 +1,30 @@
+/* pages/editor/editor.wxss */
+.btn::after{
+  border:none;
+}
+.btn{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  border-radius: 0;
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.form_box{
+  margin-bottom: 150rpx;
+}
+.h_80{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.h_300{
+  height: 300rpx;
+}
+.key{
+  width: 140rpx;
+}
+/* textarea,input{
+  border: 1rpx solid #ccc;
+} */

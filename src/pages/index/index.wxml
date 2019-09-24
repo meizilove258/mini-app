@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view class="flex_1" data-a="1" wx:if="{{true}}">
+  <view class='font_32 color_3'>疯子{{’222‘}}</view>
+  <view class="font_24 color_9">2018-06-06 12:00</view>
+</view>

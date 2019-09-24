@@ -1,0 +1,104 @@
+{
+  "_from": "wxml-loader@^0.2.2",
+  "_id": "wxml-loader@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-JBllviOKp8Fn+A6xzbVZJ2WghXTA3suqOR+QPDzydKIaWrUtj0Gene8rISCQkpu79Qe1KeiGKOERAWIyRMztcQ==",
+  "_location": "/wxml-loader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "wxml-loader@^0.2.2",
+    "name": "wxml-loader",
+    "escapedName": "wxml-loader",
+    "rawSpec": "^0.2.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.2.2"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wxml-loader/-/wxml-loader-0.2.2.tgz",
+  "_shasum": "524e690603b634b46fcd5337b334e0aecfce98a2",
+  "_spec": "wxml-loader@^0.2.2",
+  "_where": "/Users/zhangjinmei/Documents/wxapp-boilerplate",
+  "author": {
+    "name": "cap32"
+  },
+  "bugs": {
+    "url": "https://github.com/cap32/wxml-loader/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "html-minifier": "^3.5.6",
+    "loader-utils": "^1.1.0",
+    "sax": "^1.2.2"
+  },
+  "deprecated": false,
+  "description": "wxml loader for webpack",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.13.2",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-es2015-parameters": "^6.18.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.11.6",
+    "coveralls": "^3.0.0",
+    "cross-env": "^4.0.0",
+    "eslint": "^4.18.1",
+    "eslint-config-cantonjs": "^0.2.0",
+    "file-loader": "^1.1.11",
+    "jest": "^21.2.1",
+    "mkdirp": "^0.5.1",
+    "prettier-eslint-cli": "^4.7.1",
+    "rimraf": "^2.5.4",
+    "webpack": "^2.4.1"
+  },
+  "files": [
+    "*.md",
+    "bin",
+    "lib"
+  ],
+  "homepage": "https://github.com/cap32/wxml-loader#readme",
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "modulePathIgnorePatterns": [
+      "node_modules",
+      "lib",
+      "dist"
+    ]
+  },
+  "keywords": [
+    "wxml",
+    "loader",
+    "webpack",
+    "wxapp",
+    "weapp",
+    "mini-program",
+    "wechat",
+    "alipay"
+  ],
+  "licenses": "MIT",
+  "main": "lib/index",
+  "name": "wxml-loader",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cap32/wxml-loader.git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "build:watch": "babel src -d lib -w",
+    "coverage": "cat ./coverage/lcov.info | coveralls",
+    "prebuild": "rimraf lib",
+    "prettier": "prettier-eslint --write \"+(src|test)/**/*.js\"",
+    "preversion": "yarn test && yarn build",
+    "start": "jest test --watch",
+    "test": "jest test --coverage"
+  },
+  "version": "0.2.2"
+}

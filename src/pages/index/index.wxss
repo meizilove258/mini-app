@@ -1,0 +1,15 @@
+/* pages/index/index.wxss */
+.header{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.item_img{
+  display: block;
+  padding:5rpx;
+  box-sizing: border-box;
+  height: 240rpx;
+}
+.item_imgone{
+  width: 100%;
+}
